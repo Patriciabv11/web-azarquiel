@@ -1,0 +1,215 @@
+<main>
+  <div class="encabezado">
+    <img src="/img/pexels-photo-3183176.jpeg" alt="realidadvirtual"/>
+      <div class="contenedor">
+        <div class="texto2">
+          <h3>Curso de Especialización</h3>
+        </div>
+        <h1>Desarrollo de Videojuegos y Realidad Virtual</h1>
+      </div>
+  </div>
+  <div class="titulo col-xs-12">
+    <h3>¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACIÓN?</h3>
+  </div>
+  <div class="informacion col-xs-12">
+    <p>
+      La competencia general de este curso de especialización consiste en diseñar y desarrollar
+      videojuegos para diferentes dispositivos y plataformas, garantizando la experiencia del
+      usuario, utilizando herramientas de última generación que permitan actuar en todas las
+      fases de su desarrollo, así como aplicaciones interactivas de realidad virtual y aumentada.
+    </p>
+  </div>
+  <div class="titulo col-xs-12">
+    <h3>¿QUIÉN PUEDE ACCEDER A ESTAS ENSEÑANZAS?</h3>
+  </div>
+  <div class="informacion col-xs-12">
+    <ul>
+      <li>
+        <span>
+          Técnico Superior en Administración de Sistemas Informáticos en Red establecido por
+          el Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de
+          Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus
+          enseñanzas mínimas.
+        </span>
+      </li>
+      <li>
+        <span>
+          Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, establecido por el
+          Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico
+          Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas
+          mínimas.
+        </span>
+      </li>
+      <li>
+        <span>
+          Técnico Superior en Desarrollo de Aplicaciones Web, establecido por el Real Decreto
+          686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en
+          Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.
+        </span>  
+      </li> 
+      <li>
+        <span>
+          Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos establecido por el
+          Real Decreto 1583/2011, de 4 de noviembre, por el que se establece el título de
+          Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos y se fijan sus
+          enseñanzas mínimas.
+        </span>
+      </li>
+    </ul>
+    <div class="titulo">
+      <h3>MÓDULOS PROFESIONALES</h3>
+    </div>
+    <div class="informacion">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th colspan="3">
+              <strong>Familia profesional: </strong>Informática y comunicaciones<br>
+              <strong>Título: </strong>Desarrollo de Videojuegos y Realidad Virtual<br>
+              <strong>Nivel: </strong>Curso de especialización
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="head" align="center">Módulos profesionales</th>
+            <th class="head" align="center">Horas anuales</th>
+            <th class="head" align="center">Horas semanales</th>
+          </tr>
+          <tr>
+            <td>5048. Programación y motores de videojuegos.</td>
+            <td align="center">160</td>
+            <td align="center">5</td>
+          </tr>
+          <tr>
+            <td>5049. Diseño gráfico 2D y 3D.</td>
+            <td align="center">125</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td>5050. Programación en red e inteligencia artificial.</td>
+            <td align="center">95</td>
+            <td align="center">3</td>
+          </tr>
+          <tr>
+            <td>5051. Realidad virtual y realidad aumentada.</td>
+            <td align="center">95</td>
+            <td align="center">3</td>
+          </tr>
+          <tr>
+            <td>5052. Diseño, Gestión, publicación y producción.</td>
+            <td align="center">125</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td align="center">Total</td>
+            <td align="center">600</td>
+            <td align="center">19</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="titulo">
+      <h3>¿PARA QUÉ SIRVE EN EL MUNDO LABORAL?</h3>
+    </div>
+    <div class="informacion">
+      <p>
+        Las personas que hayan obtenido el certificado que acredita la superación
+        de este curso de especialización podrán ejercer su actividad en empresas,
+        públicas y privadas del sector de los videojuegos, así como crear su propio
+        estudio de desarrollo de videojuegos.
+      </p>
+      <p>
+        Las ocupaciones y puestos de trabajo más relevantes son:
+      </p>
+      <ul>
+        <li><span>Desarrollador de videojuegos.</span></li>
+        <li><span>Responsable de pruebas de videojuegos.</span></li>
+        <li><span>Responsable del proceso de creación de videojuegos.</span></li>
+        <li><span>Diseñador gráfico 2D y 3D de videojuegos.</span></li>
+        <li><span>Desarrollador de aplicaciones de realidad virtual, aumentada y mixta.</span></li>
+      </ul>
+    </div>
+  </div>
+</main>
+<style lang="sass">
+  img
+    width: 98.6vw
+    height: 35rem
+  
+  .encabezado 
+    position: relative
+    display: inline-block
+    text-align: left
+    padding-bottom: 3rem
+
+  .contenedor
+    position: absolute
+    top: 50%
+    background-color: #005D9D
+    opacity: 70%
+    width: 43rem
+    height: 13rem
+    padding-top: 2rem
+    padding-right: 3rem
+    border-radius: 0 2rem 2rem 0
+
+    h1
+      font-weight: bold
+      padding-left: 3rem
+      color: white
+
+    h3
+      font-weight: bold
+
+    .texto2
+      background-color: white
+      opacity: 70%
+      color: black
+      padding-left: 6rem
+      width: 34rem
+      border-radius: 0 2rem 2rem 0
+
+  .titulo
+    text-align: left
+    background-color: #005D9D
+    color: white
+    padding-left: 3rem
+
+    h3
+      padding-top: 1rem
+      padding-bottom: 1rem
+      font-weight: bold
+
+  .informacion
+    padding-bottom: 2rem
+    padding-top: 1rem
+
+    p
+      font-size: 1.2rem
+      margin-left: 10rem
+      margin-right: 10rem
+
+    ul
+      font-size: 1.2rem
+      margin-left: 10rem
+      margin-right: 10rem
+
+    li
+      color: #005D9D
+      padding-bottom: 2rem
+
+    li span
+      color: black
+  
+  .table-striped
+    border-color: #009cde
+    margin-left: 4rem
+    margin-right: 5rem
+    width: 65rem
+
+    .head
+      background-color: #009cde
+      color: white
+  
+</style>
