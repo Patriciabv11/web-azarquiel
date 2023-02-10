@@ -8,58 +8,60 @@
         <h1>Desarrollo de Videojuegos y Realidad Virtual</h1>
       </div>
   </div>
-  <div class="titulo col-xs-12">
-    <h3>¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACIÓN?</h3>
-  </div>
-  <div class="informacion col-xs-12">
-    <p>
-      La competencia general de este curso de especialización consiste en diseñar y desarrollar
-      videojuegos para diferentes dispositivos y plataformas, garantizando la experiencia del
-      usuario, utilizando herramientas de última generación que permitan actuar en todas las
-      fases de su desarrollo, así como aplicaciones interactivas de realidad virtual y aumentada.
-    </p>
-  </div>
-  <div class="titulo col-xs-12">
-    <h3>¿QUIÉN PUEDE ACCEDER A ESTAS ENSEÑANZAS?</h3>
-  </div>
-  <div class="informacion col-xs-12">
-    <ul>
-      <li>
-        <span>
-          Técnico Superior en Administración de Sistemas Informáticos en Red establecido por
-          el Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de
-          Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus
-          enseñanzas mínimas.
-        </span>
-      </li>
-      <li>
-        <span>
-          Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, establecido por el
-          Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico
-          Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas
-          mínimas.
-        </span>
-      </li>
-      <li>
-        <span>
-          Técnico Superior en Desarrollo de Aplicaciones Web, establecido por el Real Decreto
-          686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en
-          Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.
-        </span>  
-      </li> 
-      <li>
-        <span>
-          Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos establecido por el
-          Real Decreto 1583/2011, de 4 de noviembre, por el que se establece el título de
-          Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos y se fijan sus
-          enseñanzas mínimas.
-        </span>
-      </li>
-    </ul>
+  <div class="cuerpo">
+    <div class="titulo col-xs-12">
+      <h3>¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACIÓN?</h3>
+    </div>
+    <div class="informacion col-xs-12">
+      <p>
+        La competencia general de este curso de especialización consiste en diseñar y desarrollar
+        videojuegos para diferentes dispositivos y plataformas, garantizando la experiencia del
+        usuario, utilizando herramientas de última generación que permitan actuar en todas las
+        fases de su desarrollo, así como aplicaciones interactivas de realidad virtual y aumentada.
+      </p>
+    </div>
+    <div class="titulo col-xs-12">
+      <h3>¿QUIÉN PUEDE ACCEDER A ESTAS ENSEÑANZAS?</h3>
+    </div>
+    <div class="informacion col-xs-12">
+      <ul>
+        <li>
+          <span>
+            Técnico Superior en Administración de Sistemas Informáticos en Red establecido por
+            el Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de
+            Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus
+            enseñanzas mínimas.
+          </span>
+        </li>
+        <li>
+          <span>
+            Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, establecido por el
+            Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico
+            Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas
+            mínimas.
+          </span>
+        </li>
+        <li>
+          <span>
+            Técnico Superior en Desarrollo de Aplicaciones Web, establecido por el Real Decreto
+            686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en
+            Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.
+          </span>  
+        </li> 
+        <li>
+          <span>
+            Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos establecido por el
+            Real Decreto 1583/2011, de 4 de noviembre, por el que se establece el título de
+            Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos y se fijan sus
+            enseñanzas mínimas.
+          </span>
+        </li>
+      </ul>
+    </div>
     <div class="titulo">
       <h3>MÓDULOS PROFESIONALES</h3>
     </div>
-    <div class="informacion">
+    <div class="informacion-tabla">
       <table class="table table-striped">
         <thead>
           <tr>
@@ -204,12 +206,41 @@
   
   .table-striped
     border-color: #009cde
-    margin-left: 4rem
-    margin-right: 5rem
+    margin-left: 6rem
+    margin-right: 4rem
     width: 65rem
+    margin-bottom: 4rem
 
     .head
       background-color: #009cde
       color: white
   
+  @media screen and (max-width: 1000px)
+    .informacion-tabla
+      overflow: auto
+
+      .table-striped
+        flex-shrink: 0
+
+    .informacion
+      p
+        margin-left: 3rem
+        margin-right: 3rem
+
+      ul
+        margin-left: 3rem
+        margin-right: 3rem
+
+  @media screen and (min-width: 1250px)
+    .titulo
+      width: 77rem
+
+    .informacion
+      width: 73rem
+
+    .cuerpo
+      display: flex
+      flex-direction: column
+      align-items: center
+
 </style>

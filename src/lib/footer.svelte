@@ -76,4 +76,10 @@
       text-align: center
       font-weight: bold
 
+  @media screen and (max-width: 1130px)
+    .row
+      display: flex
+      flex-direction: column
+
+
 </style>

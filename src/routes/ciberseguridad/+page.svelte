@@ -217,6 +217,7 @@
     margin-left: 6rem
     margin-right: 4rem
     width: 65rem
+    margin-bottom: 4rem
 
     .head
       background-color: #009cde
@@ -226,6 +227,7 @@
   @media screen and (max-width: 1000px)
     .informacion-tabla
       overflow: auto
+
       .table-striped
         flex-shrink: 0
 
@@ -244,6 +246,7 @@
 
     .informacion
       width: 73rem
+
     .cuerpo
       display: flex
       flex-direction: column

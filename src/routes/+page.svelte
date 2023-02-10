@@ -1,5 +1,5 @@
 <main>
-  <section id="des-videojuegos">
+  <section id="card-titulos">
     <div class="container">
       <div class="row">
         <div class="card col-6" style="width:32rem">
@@ -30,7 +30,7 @@
     padding-top: 1rem
   .card
     height:35rem
-    margin-right: 3rem
+    margin-left: 3rem
     margin-bottom: 10rem
     border: 0.2rem solid #009CDE
     animation: rosauwu 2s
@@ -60,6 +60,12 @@
     0% 
       transform: translateY(-200%)
       opacity: 0%
+  
+  @media screen and (max-width: 1200px)
+    .row
+      display: flex
+      flex-direction: column
+      align-items: center
       
 </style>
 
