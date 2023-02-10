@@ -8,17 +8,19 @@
       <h1>Ciberseguridad</h1>
     </div>
   </div>
-  <div class="titulo col-xs-12">
-    <h3>¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACIÓN?</h3>
-  </div>
-  <div class="informacion col-xs-12">
-    <p>
-      La competencia general de este curso de especialización consiste en definir e implementar 
-      estrategias de seguridad en los sistemas de información realizando diagnósticos de ciberseguridad, 
-      identificando vulnerabilidades e implementando las medidas necesarias para mitigarlas aplicando 
-      la normativa vigente y estándares del sector, siguiendo los protocolos de calidad, de prevención 
-      de riesgos laborales y respeto ambiental.
-    </p>
+  <div class="cuerpo">
+    <div class="titulo col-xs-12">
+      <h3>¿QUÉ COMPETENCIA GENERAL TIENE EL CURSO DE ESPECIALIZACIÓN?</h3>
+    </div>
+    <div class="informacion col-xs-12">
+      <p>
+        La competencia general de este curso de especialización consiste en definir e implementar 
+        estrategias de seguridad en los sistemas de información realizando diagnósticos de ciberseguridad, 
+        identificando vulnerabilidades e implementando las medidas necesarias para mitigarlas aplicando 
+        la normativa vigente y estándares del sector, siguiendo los protocolos de calidad, de prevención 
+        de riesgos laborales y respeto ambiental.
+      </p>
+    </div>
     <div class="titulo col-xs-12">
       <h3>¿QUIÉN PUEDE ACCEDER A ESTAS ENSEÑANZAS?</h3>
     </div>
@@ -60,84 +62,83 @@
           </span>
         </li>
       </ul>
-      <div class="titulo">
-        <h3>MÓDULOS PROFESIONALES</h3>
-      </div>
-      <div class="informacion-tabla">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th colspan="3">
-                <strong>Familia profesional: </strong>Informática y comunicaciones<br>
-                <strong>Título: </strong>Ciberseguridad en Entornos de las Tecnologías de la Información<br>
-                <strong>Nivel: </strong>Curso de especialización
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="head" align="center">Módulos profesionales</th>
-              <th class="head" align="center">Horas anuales</th>
-              <th class="head" align="center">Horas semanales</th>
-            </tr>
-            <tr>
-              <td>5021. Incidentes de ciberseguridad.</td>
-              <td align="center">120</td>
-              <td align="center">4</td>
-            </tr>
-            <tr>
-              <td>5022. Bastionado de redes y sistemas.</td>
-              <td align="center">185</td>
-              <td align="center">6</td>
-            </tr>
-            <tr>
-              <td>5023. Puesta en producción segura.</td>
-              <td align="center">120</td>
-              <td align="center">4</td>
-            </tr>
-            <tr>
-              <td>5024. Análisis forense informático.</td>
-              <td align="center">120</td>
-              <td align="center">4</td>
-            </tr>
-            <tr>
-              <td>5025. Hacking ético.</td>
-              <td align="center">120</td>
-              <td align="center">4</td>
-            </tr>
-            <tr>
-              <td>5026. Normativa de ciberseguridad</td>
-              <td align="center">55</td>
-              <td align="center">2</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td align="center"><strong>Total</strong></td>
-              <td align="center"><strong>720</strong></td>
-              <td align="center"><strong>24</strong></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="titulo">
-        <h3>¿PARA QUÉ SIRVE EN EL MUNDO LABORAL?</h3>
-      </div>
-      <div class="informacion">
-        <p>
-          Este profesional ejercerá su actividad en entidades de los sectores donde sea necesario 
-          establecer mecanismos y medidas para la protección de los sistemas de información y redes 
-          de comunicaciones.
-        </p>
-        <p>
-          Las ocupaciones y puestos de trabajo más relevantes son:
-        </p>
-        <ul>
-          <li><span>Experto en ciberseguridad.</span></li>
-          <li><span>Auditor de ciberseguridad.</span></li>
-          <li><span>Consultor de ciberseguridad.</span></li>
-          <li><span>Hacker ético.</span></li>
-        </ul>
-      </div>
+    </div>
+    <div class="titulo">
+      <h3>MÓDULOS PROFESIONALES</h3>
+    </div>
+    <div class="informacion-tabla">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th colspan="3">
+              <strong>Familia profesional: </strong>Informática y comunicaciones<br>
+              <strong>Título: </strong>Ciberseguridad en Entornos de las Tecnologías de la Información<br>
+              <strong>Nivel: </strong>Curso de especialización
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="head" align="center">Módulos profesionales</th>
+            <th class="head" align="center">Horas anuales</th>
+            <th class="head" align="center">Horas semanales</th>
+          </tr>
+          <tr>
+            <td>5021. Incidentes de ciberseguridad.</td>
+            <td align="center">120</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td>5022. Bastionado de redes y sistemas.</td>
+            <td align="center">185</td>
+            <td align="center">6</td>
+          </tr>
+          <tr>
+            <td>5023. Puesta en producción segura.</td>
+            <td align="center">120</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td>5024. Análisis forense informático.</td>
+            <td align="center">120</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td>5025. Hacking ético.</td>
+            <td align="center">120</td>
+            <td align="center">4</td>
+          </tr>
+          <tr>
+            <td>5026. Normativa de ciberseguridad</td>
+            <td align="center">55</td>
+            <td align="center">2</td>
+          </tr>
+          <tr>
+            <td align="center"><strong>Total</strong></td>
+            <td align="center"><strong>720</strong></td>
+            <td align="center"><strong>24</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="titulo">
+      <h3>¿PARA QUÉ SIRVE EN EL MUNDO LABORAL?</h3>
+    </div>
+    <div class="informacion">
+      <p>
+        Este profesional ejercerá su actividad en entidades de los sectores donde sea necesario 
+        establecer mecanismos y medidas para la protección de los sistemas de información y redes 
+        de comunicaciones.
+      </p>
+      <p>
+        Las ocupaciones y puestos de trabajo más relevantes son:
+      </p>
+      <ul>
+        <li><span>Experto en ciberseguridad.</span></li>
+        <li><span>Auditor de ciberseguridad.</span></li>
+        <li><span>Consultor de ciberseguridad.</span></li>
+        <li><span>Hacker ético.</span></li>
+      </ul>
     </div>
   </div>
 </main>
@@ -211,15 +212,15 @@
     li span
       color: black
 
-    .table-striped
-      border-color: #009cde
-      margin-left: 4rem
-      margin-right: 5rem
-      width: 65rem
+  .table-striped
+    border-color: #009cde
+    margin-left: 6rem
+    margin-right: 4rem
+    width: 65rem
 
-      .head
-        background-color: #009cde
-        color: white
+    .head
+      background-color: #009cde
+      color: white
   
 
   @media screen and (max-width: 1000px)
@@ -237,8 +238,15 @@
         margin-left: 3rem
         margin-right: 3rem
 
-  @media screen and (max-width: 1250px)
+  @media screen and (min-width: 1250px)
+    .titulo
+      width: 77rem
+
     .informacion
-      p 
-        
+      width: 73rem
+    .cuerpo
+      display: flex
+      flex-direction: column
+      align-items: center
+
 </style>

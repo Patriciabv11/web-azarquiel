@@ -50,16 +50,13 @@
   section
     background-color:  #f5f5f5
     padding-top: 0.8rem
-
     .container
       margin: 0
-
       .social-icons
         display: flex
         column-gap: 1rem
         list-style: none
         font-size: 13px
-
         :hover
           color: #009cde
           cursor: pointer
@@ -69,12 +66,10 @@
         column-gap: 1rem
         list-style: none
         text-decoration: none
-        padding-left: 17rem
+        align-items: start
         font-size: 13px
-
         a:link 
           text-decoration: none
-
       i
         color: gray
 </style>

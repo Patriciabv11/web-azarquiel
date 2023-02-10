@@ -8,14 +8,14 @@
         <div id="nav-menu" class="col-8">
           <div>
             <ul class="menu">
-              <li><a href="#top">INICIO</a></li>
-              <li><a href="#top">AL DÍA</a><i class="fa-solid fa-angle-down"></i></li>
-              <li><a href="#top">AL LORO</a></li>
-              <li><a href="#top">EL CENTRO</a><i class="fa-solid fa-angle-down"></i></li>
-              <li><a href="#top">SECRETARÍAS</a><i class="fa-solid fa-angle-down"></i></li>
-              <li><a href="#top">FAMILIAS</a><i class="fa-solid fa-angle-down"></i></li>
-              <li><a href="#top">BOLSA</a></li>
-              <i class="fa-solid fa-bars" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+              <li class="datosmenu"><a href="#top">INICIO</a></li>
+              <li class="datosmenu"><a href="#top">AL DÍA</a><i class="fa-solid fa-angle-down"></i></li>
+              <li class="datosmenu"><a href="#top">AL LORO</a></li>
+              <li class="datosmenu"><a href="#top">EL CENTRO</a><i class="fa-solid fa-angle-down"></i></li>
+              <li class="datosmenu"><a href="#top">SECRETARÍAS</a><i class="fa-solid fa-angle-down"></i></li>
+              <li class="datosmenu"><a href="#top">FAMILIAS</a><i class="fa-solid fa-angle-down"></i></li>
+              <li class="datosmenu"><a href="#top">BOLSA</a></li>
+              <i class="fa-solid fa-bars" id="barrasmenu" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
             </ul>
           </div>
         </div>
@@ -54,11 +54,11 @@
     .menu
       display: flex
       font-size: 13px
-      column-gap: 2rem
+      column-gap: 1rem
       list-style: none
       text-decoration: none
-      padding-left: 6rem
       padding-top: 0.3rem
+      padding-left: 3rem
       color: black
 
       a:link
@@ -90,7 +90,12 @@
 
       .fa-solid
         color: white
-        
-        
+
+  @media screen and (max-width: 1000px)      
+    .datosmenu
+      display: none     
+
+    #barrasmenu
+      padding-left: 22rem
       
 </style>

@@ -54,7 +54,7 @@
     background-color: #009cde
     color: white
     padding-top: 1rem
-    
+
     .elementos
       font-size: 14px
 
